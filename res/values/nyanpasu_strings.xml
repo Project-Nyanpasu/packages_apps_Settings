@@ -93,4 +93,8 @@
 
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_summary">Custom your statusbar items</string>
 </resources>

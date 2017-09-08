@@ -46,6 +46,13 @@
         android:summary="@string/network_traffic_summary"
         android:fragment="com.android.settings.nyanpasu.NetworkTrafficSettings"/>
 
+    <Preference
+        android:key="systemui_tuner_statusbar"
+        android:title="@string/statusbar_items_title"
+        android:summary="@string/statusbar_items_summary" >
+        <intent android:action="com.android.settings.action.STATUS_BAR_TUNER"/>
+    </Preference>
+
     <!-- Tips -->
     <com.android.settingslib.widget.FooterPreference
             android:key="status_bar_settings_tips"
