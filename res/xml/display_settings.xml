@@ -185,11 +185,16 @@
         android:summary="@string/ticker_screen_summary"
         android:fragment="com.android.settings.fragments.notifications.Ticker"/>
 
-     <!-- Statusbar Lyric -->
+    <!-- Statusbar Lyric -->
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="status_bar_show_lyric"
         android:title="@string/status_bar_show_lyric_title"
         android:summary="@string/status_bar_show_lyric_summary"
         android:defaultValue="true" />
 
+	<!-- Weather -->
+    <Preference
+        android:key="weather"
+        android:fragment="com.android.settings.custom.Weather"
+        android:title="@string/weather_title" />
 </PreferenceScreen>
