@@ -23,4 +23,7 @@
     <string name="donate">Donate</string>
     <string name="donate_afdian">Afdian</string>
     <string name="donate_afdian_summary">I am kawaii, give me money</string>
+
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Build date</string>
 </resources>
