@@ -233,6 +233,7 @@
     <!-- ROM version -->
     <string name="about_device_name">Device</string>
     <string name="amatsuka_codename">Amatsuka Codename</string>
+    <string name="build_date">Build date</string>
 
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">Weather</string>

@@ -177,7 +177,8 @@
 
     <!-- ROM version -->
     <string name="about_device_name">设备</string>
-    <string name="amatsuka_codename">Amatsuka代码代号</string>
+    <string name="amatsuka_codename">Amatsuka分支</string>
+    <string name="build_date">构建日期</string>
 
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">天气</string>
