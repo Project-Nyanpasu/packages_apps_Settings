@@ -96,15 +96,15 @@ public class DevelopmentTilePreferenceController extends BasePreferenceControlle
 
         @Override
         public boolean onPreferenceChange(Preference preference, Object newValue) {
-            boolean enabled = ((Boolean) newValue).booleanValue();
-            ComponentName componentName = new ComponentName(
+            //boolean enabled = ((Boolean) newValue).booleanValue();
+            ComponentName cn = new ComponentName(
                     mContext.getPackageName(), preference.getKey());
-            mPackageManager.setComponentEnabledSetting(componentName, enabled
+            mPackageManager.setComponentEnabledSetting(cn, (Boolean) newValue
                             ? PackageManager.COMPONENT_ENABLED_STATE_ENABLED
                             : PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
                     PackageManager.DONT_KILL_APP);
 
-            try {
+            /*try {
                 if (mStatusBarService != null) {
                     if (enabled) {
                         mStatusBarService.addTile(componentName);
@@ -115,7 +115,7 @@ public class DevelopmentTilePreferenceController extends BasePreferenceControlle
             } catch (RemoteException e) {
                 Log.e(TAG, "Failed to modify QS tile for component " +
                         componentName.toString(), e);
-            }
+            }*/
             return true;
         }
     }
