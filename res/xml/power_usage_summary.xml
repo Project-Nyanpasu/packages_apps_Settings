@@ -51,6 +51,12 @@
         android:title="@string/battery_light_title"
         settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
 
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp_title"
+        android:summary="@string/battery_temp_summary"
+        android:selectable="true" />
+
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
