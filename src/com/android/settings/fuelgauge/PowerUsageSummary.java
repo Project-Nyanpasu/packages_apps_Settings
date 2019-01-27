@@ -240,15 +240,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (KEY_BATTERY_TEMP.equals(preference.getKey())) {
-            if (batteryTemp) {
-                mBatteryTemp.setSubtitle(
-                    CustomUtils.batteryTemperature(getContext(), false));
-                batteryTemp = false;
-            } else {
-                mBatteryTemp.setSubtitle(
-                    CustomUtils.batteryTemperature(getContext(), true));
-                batteryTemp = true;
-            }
+            updateBatteryTempPreference();
         } 
     }
 
@@ -331,8 +323,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         updateLastFullChargePreference();
         mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
-        mBatteryTemp.setSubtitle(
-                CustomUtils.batteryTemperature(getContext(), batteryTemp));
+        updateBatteryTempPreference();
     }
 
     @VisibleForTesting
@@ -360,6 +351,19 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
             mLastFullChargePref.setSubtitle(
                     StringUtil.formatRelativeTime(getContext(), lastFullChargeTime,
                             false /* withSeconds */));
+        }
+    }
+
+    @VisibleForTesting
+    void updateBatteryTempPreference() {
+        if (batteryTemp) {
+            mBatteryTemp.setSubtitle(
+                CustomUtils.batteryTemperature(getContext(), false));
+            batteryTemp = false;
+        } else {
+            mBatteryTemp.setSubtitle(
+                CustomUtils.batteryTemperature(getContext(), true));
+            batteryTemp = true;
         }
     }
 
