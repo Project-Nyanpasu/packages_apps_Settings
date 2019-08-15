@@ -266,4 +266,8 @@
     <!-- 4G instead of LTE  -->
     <string name="show_fourg_title">Show 4G instead of LTE</string>
     <string name="show_fourg_summary">Replaces LTE statusbar indicators with 4G</string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 </resources>
