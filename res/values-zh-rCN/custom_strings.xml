@@ -180,6 +180,12 @@
     <string name="amatsuka_codename">Amatsuka分支</string>
     <string name="build_date">构建日期</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux状态</string>
+    <string name="selinux_status_disabled">关闭</string>
+    <string name="selinux_status_permissive">许可</string>
+    <string name="selinux_status_enforcing">执行中</string>
+
     <!-- Weather - OmniJaws Settings -->
     <string name="weather_title">天气</string>
     <string name="weather_config_title">服务设置</string>
