@@ -109,4 +109,8 @@
         <item quantity="other">%d 個應用已被鎖定</item>
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker, 應用鎖</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">滑動來截取螢幕</string>
+    <string name="swipe_to_screenshot_summary">三指滑動來截取螢幕</string>
 </resources>
