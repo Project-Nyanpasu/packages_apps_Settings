@@ -97,4 +97,8 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
     <string name="statusbar_items_summary">Custom your statusbar items</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 </resources>
