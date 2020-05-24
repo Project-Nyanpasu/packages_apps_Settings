@@ -31,4 +31,8 @@
     <!-- Double tap to sleep -->
     <string name="tap_to_sleep">Tap to sleep</string>
     <string name="tap_to_sleep_summary">Double-tap on the home screen or lockscreen to put the device to sleep</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_hint_title">Navigation hint</string>
+    <string name="show_navbar_hint_summary">Show navigation hint bar at the bottom of the screen</string>
 </resources>
