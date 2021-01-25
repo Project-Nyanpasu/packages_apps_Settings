@@ -197,4 +197,8 @@
     <string name="header_weather_summary">启用通知面板顶部天气显示</string>
     <string name="weather_icon_pack_title">天气状况图标包</string>
     <string name="weather_icon_pack_note">注意\u003a 您可以在 Play 商店搜索 \"Chronus icons\" 来安装新的图标包</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">小型移动数据图标</string>
+    <string name="use_old_mobiletype_summary">在信号指示器顶部显示移动数据图标</string>
 </resources>
