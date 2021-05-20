@@ -92,4 +92,24 @@
     <string name="color_mode_balance_green">绿色</string>
     <string name="color_mode_balance_blue">蓝色</string>
     <string name="keywords_color_balance">色彩, 色彩平衡, 色彩校正, 红色, 绿色, 蓝色, LiveDisplay</string>
+
+   <!-- App Lock -->
+    <string name="applock_title">应用锁</string>
+    <string name="applock_locked">已锁定</string>
+    <string name="applock_unlocked">已解锁</string>
+    <string name="applock_locked_apps">锁定的应用</string>
+    <string name="applock_unlocked_apps">未锁定的应用</string>
+    <string name="applock_show_only_on_wake">保持解锁状态</string>
+    <string name="applock_show_only_on_wake_on_summary">一旦通过认证，应用将保持解锁状态，直到屏幕关闭。</string>
+    <string name="applock_show_only_on_wake_off_summary">一旦通过认证，应用将在退出后的 15 秒内保持解锁状态</string>
+    <string name="applock_notification_info">你可以通过点击每个锁定的应用上的通知图标，在每个应用的基础上显示/隐藏通知内容。</string>
+    <string name="applock_show_notif">显示通知内容</string>
+    <string name="applock_hide_notif">隐藏通知内容</string>
+    <string name="applock_setup">设置应用锁</string>
+    <string name="applock_overlay_summary">该功能不可用，因为该应用已被锁定</string>
+    <plurals name="applock_summary">
+        <item quantity="one">一个应用已被锁定</item>
+        <item quantity="other">%d 个应用已被锁定</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker, 应用锁</string>
 </resources>

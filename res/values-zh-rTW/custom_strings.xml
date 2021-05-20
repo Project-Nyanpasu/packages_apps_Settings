@@ -89,4 +89,24 @@
     <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
     <string name="face_unlock_method_default">螢幕開啟時</string>
     <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
+
+    <!-- App Lock -->
+    <string name="applock_title">應用鎖</string>
+    <string name="applock_locked">已鎖定</string>
+    <string name="applock_unlocked">已解鎖</string>
+    <string name="applock_locked_apps">鎖定的應用</string>
+    <string name="applock_unlocked_apps">未鎖定的應用</string>
+    <string name="applock_show_only_on_wake">保持解鎖狀態</string>
+    <string name="applock_show_only_on_wake_on_summary">一旦通過認證，應用將保持解鎖狀態，直到屏幕關閉。 </string>
+    <string name="applock_show_only_on_wake_off_summary">一旦通過認證，應用將在退出後的 15 秒內保持解鎖狀態</string>
+    <string name="applock_notification_info">你可以通過點擊每個鎖定的應用上的通知圖標，在每個應用的基礎上顯示/隱藏通知內容。 </string>
+    <string name="applock_show_notif">顯示通知內容</string>
+    <string name="applock_hide_notif">隱藏通知內容</string>
+    <string name="applock_setup">設置應用鎖</string>
+    <string name="applock_overlay_summary">該功能不可用，因為該應用已被鎖定</string>
+    <plurals name="applock_summary">
+        <item quantity="one">一個應用已被鎖定</item>
+        <item quantity="other">%d 個應用已被鎖定</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker, 應用鎖</string>
 </resources>
