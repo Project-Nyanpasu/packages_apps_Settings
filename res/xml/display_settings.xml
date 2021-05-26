@@ -186,7 +186,7 @@
         android:fragment="com.android.settings.fragments.notifications.Ticker"/>
 
      <!-- Statusbar Lyric -->
-    <com.android.settings.preferences.SystemSettingSwitchPreference
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="status_bar_show_lyric"
         android:title="@string/status_bar_show_lyric_title"
         android:summary="@string/status_bar_show_lyric_summary"
