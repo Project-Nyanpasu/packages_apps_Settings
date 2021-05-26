@@ -179,4 +179,10 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+     <Preference
+        android:key="ticker_settings"
+        android:title="@string/ticker_screen_title"
+        android:summary="@string/ticker_screen_summary"
+        android:fragment="com.android.settings.fragments.notifications.Ticker"/>
+
 </PreferenceScreen>
