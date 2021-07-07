@@ -130,4 +130,7 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
+    <!-- Glove mode -->
+    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
+    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
 </resources>
