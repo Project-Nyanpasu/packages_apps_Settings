@@ -86,4 +86,10 @@
     <string name="advanced_keyboard_settings_title">高级设置</string>
     <string name="fod_gesture_title">允许屏幕关闭时使用指纹解锁</string>
     <string name="fod_gesture_summary">无需唤醒屏幕即可解锁设备</string>
+    <string name="touch_sensitivity_title">增加触摸灵敏度</string>
+    <string name="touch_sensitivity_summary">使用屏幕保护膜时改善触感</string>
+    <string name="color_mode_balance_red">红色</string>
+    <string name="color_mode_balance_green">绿色</string>
+    <string name="color_mode_balance_blue">蓝色</string>
+    <string name="keywords_color_balance">色彩, 色彩平衡, 色彩校正, 红色, 绿色, 蓝色, LiveDisplay</string>
 </resources>
