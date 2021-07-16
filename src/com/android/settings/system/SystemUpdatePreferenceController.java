@@ -34,8 +34,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
 
-    private static final String OTA_BUILD_TYPE_PROP = "org.pixelexperience.build_type";
-    private static final String OTA_APP_PACKAGE = "org.pixelexperience.ota";
+    private static final String OTA_BUILD_TYPE_PROP = "org.amatsuka.ota_support";
+    private static final String OTA_APP_PACKAGE = "org.amatsuka.ota";
 
     private final UserManager mUm;
 
@@ -46,8 +46,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        String buildtype = SystemProperties.get(OTA_BUILD_TYPE_PROP,"unofficial");
-        if (!mUm.isAdminUser() || (!buildtype.equalsIgnoreCase("official") && !buildtype.equalsIgnoreCase("ci"))){
+        String buildtype = SystemProperties.get(OTA_BUILD_TYPE_PROP,"false");
+        if (!mUm.isAdminUser() || (!buildtype.equalsIgnoreCase("true"))){
             return UNSUPPORTED_ON_DEVICE;
         }
         try {
