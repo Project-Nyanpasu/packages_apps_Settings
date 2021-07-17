@@ -175,4 +175,7 @@
     <string name="network_traffic_refresh_interval_title">刷新间隔</string>
     <string name="network_traffic_refresh_interval_summary">重新检测速度之后的持续时间</string>
 
+    <!-- ROM version -->
+    <string name="about_device_name">设备</string>
+    <string name="amatsuka_codename">Amatsuka代码代号</string>
 </resources>

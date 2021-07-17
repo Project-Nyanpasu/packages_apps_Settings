@@ -67,7 +67,15 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
-    <!-- Build -->
+    <!-- ROM Codename -->
+    <Preference
+        android:key="amatsuka_codemane"
+        android:title="@string/amatsuka_codename"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AmatsukaCodenamePreferenceController"/>
+
+    <!-- Build number -->
     <Preference
         android:key="os_build_number"
         android:title="@string/build_number"

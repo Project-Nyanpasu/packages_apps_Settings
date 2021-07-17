@@ -229,4 +229,8 @@
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
+
+    <!-- ROM version -->
+    <string name="about_device_name">Device</string>
+    <string name="amatsuka_codename">Amatsuka Codename</string>
 </resources>
