@@ -178,4 +178,16 @@
     <!-- ROM version -->
     <string name="about_device_name">设备</string>
     <string name="amatsuka_codename">Amatsuka代码代号</string>
+
+    <!-- Weather - OmniJaws Settings -->
+    <string name="weather_title">天气</string>
+    <string name="weather_config_title">服务设置</string>
+    <string name="weather_config_summary"></string>
+    <string name="lock_screen_weather_style_title">天气样式</string>
+    <string name="lock_screen_weather_style_summaryOff">天气显示在日期下方 (显示位置信息)</string>
+    <string name="lock_screen_weather_style_summaryOn">天气显示在日期旁边 (无位置信息)</string>
+    <string name="header_weather_title">顶部天气视图</string>
+    <string name="header_weather_summary">启用通知面板顶部天气显示</string>
+    <string name="weather_icon_pack_title">天气状况图标包</string>
+    <string name="weather_icon_pack_note">注意\u003a 您可以在 Play 商店搜索 \"Chronus icons\" 来安装新的图标包</string>
 </resources>
