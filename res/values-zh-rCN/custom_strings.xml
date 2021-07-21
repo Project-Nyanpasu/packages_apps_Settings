@@ -201,4 +201,9 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">小型移动数据图标</string>
     <string name="use_old_mobiletype_summary">在信号指示器顶部显示移动数据图标</string>
+
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">关闭</string>
+    <string name="greatest_tick_label">半屏</string>
+    <string name="gesture_back_deadzone_label">禁止区域</string>
 </resources>
