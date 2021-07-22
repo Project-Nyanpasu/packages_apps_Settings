@@ -210,4 +210,9 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
     <string name="lockscreen_battery_info_summary">充电时在锁屏上显示充电电流、电压、功率和电池温度</string>
+
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">何时允许人脸解锁</string>
+    <string name="face_unlock_method_default">当屏幕开启时</string>
+    <string name="face_unlock_method_swipe">当在锁屏滑动时</string>
 </resources>
