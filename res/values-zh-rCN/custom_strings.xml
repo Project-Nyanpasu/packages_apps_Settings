@@ -136,14 +136,20 @@
     <string name="ticker_animation_mode_alpha_fade">淡入淡出</string>
     <string name="ticker_animation_mode_scroll">滚动</string>
     <string name="ticker_tick_duration_title">状态栏通知时长</string>
+
+    <!-- Status Bar Lyric -->
     <string name="status_bar_show_lyric_title">状态栏歌词</string>
     <string name="status_bar_show_lyric_summary">在状态栏中显示歌词 (需要应用程序支持)</string>
     <string name="custom_seekbar_value">值: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">默认</string>
     <string name="custom_seekbar_default_value_to_set">默认值: <xliff:g id="v">%s</xliff:g>\n点击设置</string>
     <string name="custom_seekbar_default_value_is_set">已设为默认值</string>
+
+    <!-- Swipe to screenshot -->
     <string name="swipe_to_screenshot_title">滑动截屏</string>
     <string name="swipe_to_screenshot_summary">三指滑动来截图</string>
+
+    <!-- Network Traffic -->
     <string name="trafficsettings_title">网速指示器</string>
     <string name="trafficsettings_summary">状态栏/标题网速指示器设置</string>
     <string name="network_traffic_settings_title">网速监视器</string>
@@ -210,4 +216,13 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
     <string name="lockscreen_battery_info_summary">充电时在锁屏上显示充电电流、电压、功率和电池温度</string>
+
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">何时允许人脸解锁</string>
+    <string name="face_unlock_method_default">当屏幕开启时</string>
+    <string name="face_unlock_method_swipe">当在锁屏滑动时</string>
+
+    <!-- 4G instead of LTE  -->
+    <string name="show_fourg_title">显示 4G 而不是 LTE</string>
+    <string name="show_fourg_summary">用 4G 替换 LTE 状态栏指示器</string>
 </resources>
