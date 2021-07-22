@@ -49,6 +49,12 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
+
         <SwitchPreference
             android:key="security_setting_lockdown_enabled"
             android:title="@string/lockdown_settings_title"
