@@ -182,16 +182,10 @@
             settings:controller="com.android.settings.display.TouchSensitivityPreferenceController" />
 
        <Preference
-            android:key="ticker_settings"
-            android:title="@string/ticker_screen_title"
-            android:summary="@string/ticker_screen_summary"
-            android:fragment="com.android.settings.fragments.notifications.Ticker"/>
-
-       <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="status_bar_show_lyric"
-            android:title="@string/status_bar_show_lyric_title"
-            android:summary="@string/status_bar_show_lyric_summary"
-            android:defaultValue="true" />
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title"
+            android:summary="@string/statusbar_summary"
+            android:fragment="com.android.settings.fragments.StatusBar" />
 
        <Preference
             android:key="weather"
