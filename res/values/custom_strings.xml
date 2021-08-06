@@ -273,4 +273,10 @@
 
     <!-- Custom -->
     <string name="customization_category_title">CUSTOMIZATION</string>
+    <string name="statusbar_title">Status Bar Customization</string>
+    <string name="statusbar_summary">Customize your Status Bar</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Status icons</string>
+    <string name="statusbar_items_summary">Configure the visibility of icons in the status bar</string>
 </resources>
