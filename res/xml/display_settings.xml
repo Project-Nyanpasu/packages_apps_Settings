@@ -138,12 +138,6 @@
         settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
 
     <SwitchPreference
-        android:key="touch_sensitivity"
-        android:title="@string/touch_sensitivity_title"
-        android:summary="@string/touch_sensitivity_summary"
-        settings:controller="com.android.settings.display.TouchSensitivityPreferenceController" />
-
-    <SwitchPreference
         android:key="camera_gesture"
         android:title="@string/camera_gesture_title"
         android:summary="@string/camera_gesture_desc" />
@@ -179,22 +173,29 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
-     <Preference
-        android:key="ticker_settings"
-        android:title="@string/ticker_screen_title"
-        android:summary="@string/ticker_screen_summary"
-        android:fragment="com.android.settings.fragments.notifications.Ticker"/>
+    <PreferenceCategory
+        android:title="@string/customization_category_title">
+       <SwitchPreference
+            android:key="touch_sensitivity"
+            android:title="@string/touch_sensitivity_title"
+            android:summary="@string/touch_sensitivity_summary"
+            settings:controller="com.android.settings.display.TouchSensitivityPreferenceController" />
 
-    <!-- Statusbar Lyric -->
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="status_bar_show_lyric"
-        android:title="@string/status_bar_show_lyric_title"
-        android:summary="@string/status_bar_show_lyric_summary"
-        android:defaultValue="true" />
+       <Preference
+            android:key="ticker_settings"
+            android:title="@string/ticker_screen_title"
+            android:summary="@string/ticker_screen_summary"
+            android:fragment="com.android.settings.fragments.notifications.Ticker"/>
 
-	<!-- Weather -->
-    <Preference
-        android:key="weather"
-        android:fragment="com.android.settings.custom.Weather"
-        android:title="@string/weather_title" />
+       <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="status_bar_show_lyric"
+            android:title="@string/status_bar_show_lyric_title"
+            android:summary="@string/status_bar_show_lyric_summary"
+            android:defaultValue="true" />
+
+       <Preference
+            android:key="weather"
+            android:fragment="com.android.settings.custom.Weather"
+            android:title="@string/weather_title" />
+    </PreferenceCategory>
 </PreferenceScreen>
