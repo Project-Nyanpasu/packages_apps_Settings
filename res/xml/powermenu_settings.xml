@@ -53,7 +53,7 @@
          <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="powermenu_emergency"
             android:title="@string/powermenu_emergency"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
          <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="powermenu_users"
