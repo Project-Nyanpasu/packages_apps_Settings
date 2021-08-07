@@ -30,6 +30,12 @@
         android:summary="@string/status_bar_show_lyric_summary"
         android:defaultValue="true" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="statusbar_icons_style"
+        android:title="@string/statusbar_icons_style"
+        android:summary="@string/statusbar_icons_style_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="systemui_tuner_statusbar"
         android:title="@string/statusbar_items_title"
@@ -37,5 +43,5 @@
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.systemui"
             android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-        </Preference>
+    </Preference>
 </PreferenceScreen>
