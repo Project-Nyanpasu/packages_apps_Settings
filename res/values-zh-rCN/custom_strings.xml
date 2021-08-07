@@ -238,4 +238,23 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">状态栏图标</string>
     <string name="statusbar_items_summary">配置状态栏中图标的可见性</string>
+    
+    <!-- Power Menu -->
+    <string name="power_menu_title">电源菜单</string>
+    <string name="power_menu_title_summary">查看或更改电源菜单条目</string>
+    <string name="powermenu_screenshot">屏幕截图</string>
+    <string name="powermenu_power">电源</string>
+    <string name="powermenu_advanced">高级重启选项</string>
+    <string name="powermenu_restart">重新启动</string>
+    <string name="powermenu_airplane">飞行模式</string>
+    <string name="powermenu_settings">设置</string>
+    <string name="powermenu_lockdown">锁定</string>
+    <string name="powermenu_soundpanel">音频面板</string>
+    <string name="powermenu_users">用户</string>
+    <string name="powermenu_logout">注销</string>
+    <string name="powermenu_emergency">紧急情况</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">电池温度</string>
+    <string name="battery_temp_summary">点击切换单位</string>
 </resources>
