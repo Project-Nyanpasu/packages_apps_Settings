@@ -48,4 +48,10 @@
     <string name="advanced_settings_tips_text">Advanced settings can define the functions of your phone for a better experience.\n\nHowever, some customized settings will cause the device to become unstable or even crash, please turn it on with caution.\n\nIn future updates, there is a chance that some customizations will be updated and removed.</string>
     <string name="status_bar_settings_tips_text">Status bar customization according to needs can improve the experience, please choose to enable or disable some customizations as appropriate.\n\nIn future updates, there is a chance that some customizations will be updated and removed.</string>
     <string name="misc_settings_tips_text">Misc settings have some highly experimental settings, there may be unexpected situations when enabling them, please enable them with caution.\n\nIn future updates, there is a chance that some customizations will be updated and removed.</string>
+
+    <!-- Clock position -->
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_right">Right</string>
+    <string name="status_bar_clock_position_title">Clock position</string>
 </resources>

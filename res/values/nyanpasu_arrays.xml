@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2022 The Project Nyanpasu
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Clock position -->
+    <string-array name="status_bar_clock_position_entries" translatable="false">
+        <item>@string/status_bar_clock_position_left</item>
+        <item>@string/status_bar_clock_position_center</item>
+        <item>@string/status_bar_clock_position_right</item>
+    </string-array>
+
+    <string-array name="status_bar_clock_position_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
