@@ -27,4 +27,8 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
     <string name="about_device_name">Device</string>
+
+    <!-- Double tap to sleep -->
+    <string name="tap_to_sleep">Tap to sleep</string>
+    <string name="tap_to_sleep_summary">Double-tap on the home screen or lockscreen to put the device to sleep</string>
 </resources>
