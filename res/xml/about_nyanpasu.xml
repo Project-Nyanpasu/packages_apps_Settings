@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (C) 2022 The Project Nyanpasu
+
+    SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/about_nyanpasu_title" >
+
+    <!-- Nyanpasu Banner -->
+    <PreferenceScreen
+        android:key="nyanpasu_logo"
+        android:layout="@layout/nyanpasu_logo"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="about_nyanpasu"
+        android:title="@string/about_nyanpasu"/>
+
+    <!-- Group -->
+    <PreferenceCategory
+        android:key="group"
+        android:title="@string/group">
+
+        <Preference
+            android:key="nyanpasu_telegram"
+            android:title="@string/telegram_title"
+            android:summary="@string/telegram_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/snow_nyanpasu"/>
+        </Preference>
+
+        <Preference
+            android:key="nyanpasu_qq"
+            android:title="@string/qq_title"
+            android:summary="@string/qq_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://qm.qq.com/cgi-bin/qm/qr?k=j1SfbCKU63XqYqc_VTDrHv_Y4j_teSze&amp;jump_from=webapi"/>
+        </Preference>
+    </PreferenceCategory>
+
+    <!-- Donate -->
+    <PreferenceCategory
+        android:key="donate"
+        android:title="@string/donate">
+
+        <Preference
+            android:key="nyanpasu_donate"
+            android:title="@string/donate_afdian"
+            android:summary="@string/donate_afdian_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://afdian.net/@really_snow"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

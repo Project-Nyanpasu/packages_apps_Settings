@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Nyanpasu Banner -->
+    <PreferenceScreen
+        android:key="nyanpasu_logo"
+        android:layout="@layout/nyanpasu_logo"
+        android:selectable="false" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -29,6 +35,14 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+
+    <!-- ROM Version -->
+    <Preference
+        android:key="nyanpasu_version"
+        android:title="@string/nyanpasu_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.NyanpasuVersionPreferenceController"/>
 
     <!-- Security patch -->
     <Preference

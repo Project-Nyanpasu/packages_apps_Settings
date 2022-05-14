@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2022 The Project Nyanpasu
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM version -->
+    <string name="nyanpasu_version">Nyanpasu Version</string>
+    <string name="nyanpasu_build_version">Build Version</string>
+    <string name="nyanpasu_version_toast" translatable="false">喵帕斯~</string>
+    <string name="nyanpasu_build_version_toast" translatable="false">这不是能启用开发者选项的东西啦！再乱点我报警啦！</string>
+
+    <!-- About Nyanpasu -->
+    <string name="about_nyanpasu_title">About Nyanpasu</string>
+    <string name="about_nyanpasu_summary">Everything about Nyanpasu</string>
+    <string name="about_nyanpasu">Nyanpasu is a moe elements Anroid Project. We take into both kawaiiness and code quality to bring users a cute experience.</string>
+    <string name="group">Group</string>
+    <string name="telegram_title" translatable="false">Telegram</string>
+    <string name="telegram_summary">Support telegram group for The Nyanpasu [CN]</string>
+    <string name="qq_title" translatable="false">QQ</string>
+    <string name="qq_summary">Support QQ group for The Nyanpasu</string>
+    <string name="donate">Donate</string>
+    <string name="donate_afdian">Afdian</string>
+    <string name="donate_afdian_summary">I am kawaii, give me money</string>
+</resources>

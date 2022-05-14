@@ -130,6 +130,14 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+        
+        <!-- About Nyanpasu -->
+        <Preference
+            android:key="about_nyanpasu_info"
+            android:order="43"
+            android:title="@string/about_nyanpasu_title"
+            android:summary="@string/about_nyanpasu_summary"
+            android:fragment="com.android.settings.nyanpasu.AboutNyanpasu" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -209,6 +217,15 @@
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+
+        <!-- Nyanpasu build version -->
+        <Preference
+            android:key="nyanpasu_build_version"
+            android:order="54"
+            android:title="@string/nyanpasu_build_version"
+            android:summary="@string/summary_placeholder"
+            settings:enableCopying="true"
+            settings:controller="com.android.settings.deviceinfo.NyanpasuBuildVersionPreferenceController"/>
     </PreferenceCategory>
 
     <!-- Software version -->
