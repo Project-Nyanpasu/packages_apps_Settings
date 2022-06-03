@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Project Nyanpasu
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/laboratory_ignore_window_secure_title">
+
+    <moe.reallysnow.support.preferences.SecureSettingMainSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/laboratory_ignore_window_secure_title_switch"
+        android:defaultValue="false" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="window_ignore_secure_top_footer"
+        android:title="@string/laboratory_ignore_window_secure_tips"
+        android:selectable="false"
+        settings:searchable="false" />
+</PreferenceScreen>
