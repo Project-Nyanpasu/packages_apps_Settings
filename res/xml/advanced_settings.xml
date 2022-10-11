@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Project Nyanpasu
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
+        android:key="advanced_settings"
+        android:title="@string/advanced_settings_title">
+
+    <!-- Status Bar -->
+    <Preference
+            android:key="status_bar_settings"
+            android:title="@string/status_bar_settings_title"
+            android:summary="@string/status_bar_settings_summary"
+            android:fragment="com.android.settings.nyanpasu.StatusBarSettings" />
+
+    <!-- Misc -->
+    <Preference
+            android:key="misc_settings"
+            android:title="@string/misc_settings_title"
+            android:summary="@string/misc_settings_summary"
+            android:fragment="com.android.settings.nyanpasu.MiscSettings" />
+
+    <!-- Tips -->
+    <com.android.settingslib.widget.FooterPreference
+            android:key="advanced_settings_tips"
+            android:title="@string/advanced_settings_tips_text"
+            android:selectable="false"
+            settings:searchable="false" />
+</PreferenceScreen>

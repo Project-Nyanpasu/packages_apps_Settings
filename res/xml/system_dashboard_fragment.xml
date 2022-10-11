@@ -43,6 +43,14 @@
         android:fragment="com.android.settings.datetime.DateTimeSettings"
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 
+    <!-- Advanced Settings -->
+    <Preference
+        android:key="advanced_settings"
+        android:title="@string/advanced_settings_title"
+        android:icon="@drawable/ic_advanced_settings"
+        android:order="-230"
+        android:fragment="com.android.settings.nyanpasu.AdvancedSettings" />
+
     <!-- System updates -->
     <Preference
         android:key="additional_system_update_settings"

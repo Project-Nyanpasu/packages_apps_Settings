@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Project Nyanpasu
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
+        android:key="misc_settings"
+        android:title="@string/misc_settings_title">
+
+    <!-- Tips -->
+    <com.android.settingslib.widget.FooterPreference
+            android:key="misc_settings_tips"
+            android:title="@string/misc_settings_tips_text"
+            android:selectable="false"
+            settings:searchable="false" />
+</PreferenceScreen>
