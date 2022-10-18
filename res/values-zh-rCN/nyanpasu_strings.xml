@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2022 The Project Nyanpasu
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM version -->
+    <string name="nyanpasu_version">喵帕斯版本</string>
+    <string name="nyanpasu_build_version">构建版本</string>
+
+    <!-- About Nyanpasu -->
+    <string name="about_nyanpasu_title">关于喵帕斯</string>
+    <string name="about_nyanpasu_summary">有关喵帕斯的一切</string>
+    <string name="about_nyanpasu">喵帕斯是一个萌元素的类原生项目，我们同时兼顾可爱和代码质量，为用户带来可爱的体验。</string>
+    <string name="group">群组</string>
+    <string name="telegram_title" translatable="false">Telegram</string>
+    <string name="telegram_summary">Telegram的喵帕斯支持群组[CN]</string>
+    <string name="qq_title" translatable="false">QQ</string>
+    <string name="qq_summary">QQ的喵帕斯支持群组</string>
+    <string name="donate">捐赠</string>
+    <string name="donate_afdian">爱发电</string>
+    <string name="donate_afdian_summary">我很可爱，请给我钱</string>
+
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">编译日期</string>
+    <string name="about_device_name">设备</string>
+
+    <!-- Double tap to sleep -->
+    <string name="double_tap_sleep_gesture_title">点按休眠</string>
+    <string name="double_tap_sleep_gesture_summary">双击状态栏或锁屏的任何位置来关闭屏幕</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">手势栏</string>
+    <string name="show_navbar_gesture_bar_summary">在屏幕底部显示手势栏</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">最低刷新率</string>
+
+    <!-- Advanced Settings -->
+    <string name="advanced_settings_title">高级设置</string>
+    <string name="status_bar_settings_title">状态栏</string>
+    <string name="status_bar_settings_summary">定制状态栏</string>
+    <string name="misc_settings_title">杂项</string>
+    <string name="misc_settings_summary">杂项控制</string>
+    <string name="advanced_settings_tips_text">高级设置可以定义您手机的功能以获得更好的体验。\n\n但是，一些自定义设置会导致设备变得不稳定甚至崩溃，请谨慎开启。\n\n在未来的更新中，有可能会更新和删除一些自定义设置。</string>
+    <string name="status_bar_settings_tips_text">根据需要自定义状态栏可以提升体验，请酌情选择启用或禁用一些自定义。\n\n在未来的更新中，有可能会更新和删除一些自定义设置。</string>
+    <string name="misc_settings_tips_text">杂项设置有一些高度实验性的设置，启用时可能会出现意外情况，请谨慎启用。\n\n在未来的更新中，有可能会更新和删除一些自定义设置。</string>
+
+    <!-- Clock position -->
+    <string name="status_bar_clock_position_center">居中</string>
+    <string name="status_bar_clock_position_left">左侧</string>
+    <string name="status_bar_clock_position_right">右侧</string>
+    <string name="status_bar_clock_position_title">时钟位置</string>
+
+    <!-- Clock AM/PM -->
+    <string name="status_bar_am_pm_hidden">隐藏</string>
+    <string name="status_bar_am_pm_normal">默认</string>
+    <string name="status_bar_am_pm_small">小</string>
+    <string name="status_bar_am_pm_title">时钟上午/下午样式</string>
+    <string name="status_bar_am_pm_unavailable">24 小时制时钟已启用</string>
+
+    <!-- Clock show seconds -->
+    <string name="status_bar_clock_show_seconds_title">时钟显示秒数</string>
+    <string name="status_bar_clock_show_seconds_desc">显示小时、分钟和秒</string>
+
+    <!-- Clock auto hide -->
+    <string name="status_bar_clock_auto_hide_title">自动隐藏</string>
+    <string name="status_bar_clock_auto_hide_summary">如果在启动器界面，则隐藏时钟</string>
+
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">低电量指示灯</string>
+    <string name="low_battery_light_summary">电池电量不足时闪烁指示灯</string>
+
+    <!-- Laboratory - Ignore window secure -->
+    <string name="laboratory_ignore_window_secure_title">忽略窗口安全标志</string>
+    <string name="laboratory_ignore_window_secure_summary">管理 FLAG_SECURE 窗口安全标志</string>
+    <string name="laboratory_ignore_window_secure_title_switch">启用忽略窗口安全标志</string>
+    <string name="laboratory_ignore_window_secure_tips">该功能将去除所有应用程序的 FLAG_SECURE 窗口标志，但在某些情况下可能会导致您的敏感数据泄露。应用程序通常会使用该标志来禁止您对窗口进行屏幕录制或截图操作。开关此功能后，需要重新打开相应的应用程序以使改动生效。</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">网络流量</string>
+    <string name="network_traffic_summary">启用或禁用网络流量</string>
+    <string name="network_traffic_state_title">启用网络流量</string>
+    <string name="network_options_title">选项</string>
+    <string name="network_traffic_autohide_title">网络流量不活跃时隐藏</string>
+    <string name="network_traffic_autohide_summary">网络流量低于1KB/s时隐藏</string>
+</resources>
