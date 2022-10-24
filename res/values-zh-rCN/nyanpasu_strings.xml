@@ -85,4 +85,26 @@
     <string name="network_options_title">选项</string>
     <string name="network_traffic_autohide_title">网络流量不活跃时隐藏</string>
     <string name="network_traffic_autohide_summary">网络流量低于1KB/s时隐藏</string>
+
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">壁纸缩放</string>
+
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">缩放壁纸以展示缩小深度动画。但壁纸质量可能降低</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">状态栏项目</string>
+    <string name="statusbar_items_summary">自定义你的状态栏项目</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">三指截屏</string>
+    <string name="three_finger_gesture_summary">三指向下滑动以截屏</string>
+
+    <!-- Wi-Fi Standard Icon -->
+    <string name="show_wifi_standard_icon_title">显示Wi-Fi标准图标</string>
+    <string name="show_wifi_standard_icon_summary">在Wi-Fi信号指示器中显示Wi-Fi类型</string>
+
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">启用高级重启</string>
+    <string name="global_actions_advanced_reboot_summary">在电源菜单中显示恢复和引导程序选项</string>
 </resources>
