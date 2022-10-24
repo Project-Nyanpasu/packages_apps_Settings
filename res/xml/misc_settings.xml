@@ -18,7 +18,7 @@
         android:fragment="com.android.settings.nyanpasu.IgnoreSecureSettings"/>
 
     <!-- Wallpaper Zoom Effects -->
-    <moe.reallysnow.support.preferences.SystemSettingSwitchPreference
+    <moe.reallysnow.support.preferences.SecureSettingSwitchPreference
         android:key="display_settings_wallpaper_zoom"
         android:title="@string/wallpaper_zoom_effect_title"
         android:summary="@string/wallpaper_zoom_effect_summary"
