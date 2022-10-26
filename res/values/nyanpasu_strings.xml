@@ -109,4 +109,8 @@
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Show Squiggle animation</string>
+    <string name="show_squiggle_animation_summary">Show media panel squiggle animation, Need to switch music, pause music or move the progress bar application</string>
 </resources>

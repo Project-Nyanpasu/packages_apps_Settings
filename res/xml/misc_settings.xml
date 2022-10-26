@@ -31,6 +31,13 @@
         android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="false" />
 
+    <!-- Squiggle animation -->
+    <moe.reallysnow.support.preferences.SecureSettingSwitchPreference
+        android:key="show_media_squiggle_animation"
+        android:title="@string/show_squiggle_animation_title"
+        android:summary="@string/show_squiggle_animation_summary"
+        android:defaultValue="true" />
+
     <!-- Tips -->
     <com.android.settingslib.widget.FooterPreference
             android:key="misc_settings_tips"
