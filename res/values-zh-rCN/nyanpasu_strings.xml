@@ -107,4 +107,8 @@
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">启用高级重启</string>
     <string name="global_actions_advanced_reboot_summary">在电源菜单中显示恢复和引导程序选项</string>
+
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">显示曲线动画</string>
+    <string name="show_squiggle_animation_summary">显示媒体面板的曲线动画，更改后需要切换音乐、暂停音乐或移动进度条来应用</string>
 </resources>
