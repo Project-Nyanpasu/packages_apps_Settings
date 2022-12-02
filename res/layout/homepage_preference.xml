@@ -23,6 +23,8 @@
     android:minHeight="@dimen/homepage_preference_min_height"
     android:gravity="center_vertical"
     android:background="?android:attr/selectableItemBackground"
+    android:paddingStart="48dp"
+    android:paddingEnd="48dp"
     android:clipToPadding="false"
     android:baselineAligned="false">
 
