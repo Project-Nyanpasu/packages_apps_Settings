@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2022 The Project Nyanpasu
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Homepage image tile size -->
+    <dimen name="homepage_image_size">48dp</dimen>
+
+    <!-- Homepage foreground image inset (from background edge to foreground edge) -->
+    <dimen name="homepage_foreground_image_inset">12dp</dimen>
+</resources>

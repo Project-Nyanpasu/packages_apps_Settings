@@ -82,8 +82,6 @@ public class HighlightableTopLevelPreferenceAdapter extends PreferenceGroupAdapt
         mSummaryColorNormal = Utils.getColorAttrDefaultColor(context,
                 android.R.attr.textColorSecondary);
         mSummaryColorHighlight = context.getColor(R.color.accent_select_secondary_text);
-        mIconColorNormal = Utils.getHomepageIconColor(context);
-        mIconColorHighlight = Utils.getHomepageIconColorHighlight(context);
     }
 
     @Override
