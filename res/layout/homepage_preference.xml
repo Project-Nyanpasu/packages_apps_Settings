@@ -28,10 +28,10 @@
 
     <LinearLayout
         android:id="@+id/icon_frame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:minWidth="48dp"
-        android:gravity="end|center_vertical"
+        android:gravity="center"
         android:orientation="horizontal"
         android:paddingStart="@dimen/homepage_preference_icon_padding_start"
         android:paddingTop="4dp"
@@ -39,8 +39,8 @@
 
         <androidx.preference.internal.PreferenceImageView
             android:id="@android:id/icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
             app:maxWidth="48dp"
             app:maxHeight="48dp"/>
 
