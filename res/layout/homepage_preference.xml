@@ -22,6 +22,8 @@
     android:layout_height="wrap_content"
     android:minHeight="@dimen/homepage_preference_min_height"
     android:gravity="center_vertical"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
     android:background="?android:attr/selectableItemBackground"
     android:clipToPadding="false"
     android:baselineAligned="false">
