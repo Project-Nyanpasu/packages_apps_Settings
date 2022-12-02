@@ -1277,14 +1277,6 @@ public final class Utils extends com.android.settingslib.Utils {
     }
 
     /**
-     * Returns the color of homepage preference icons.
-     */
-    @ColorInt
-    public static int getHomepageIconColor(Context context) {
-        return getColorAttrDefaultColor(context, android.R.attr.textColorPrimary);
-    }
-
-    /**
      * Returns the highlight color of homepage preference icons.
      */
     @ColorInt
