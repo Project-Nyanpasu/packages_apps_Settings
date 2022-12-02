@@ -47,6 +47,8 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.ArrayMap;
+import android.util.FeatureFlag;
+import android.util.FeatureFlagUtils;
 import android.util.Log;
 import android.util.Pair;
 import android.widget.Toast;
@@ -429,11 +431,12 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
             preference.setIcon(null);
             return;
         }
-        if (TextUtils.equals(tile.getCategory(), CategoryKey.CATEGORY_HOMEPAGE)) {
-            iconDrawable.setTint(Utils.getHomepageIconColor(preference.getContext()));
-        } else if (forceRoundedIcon && !TextUtils.equals(mContext.getPackageName(), iconPackage)) {
+        if (forceRoundedIcon && !TextUtils.equals(mContext.getPackageName(), iconPackage)) {
             iconDrawable = new AdaptiveIcon(mContext, iconDrawable,
-                    R.dimen.dashboard_tile_foreground_image_inset);
+                    FeatureFlagUtils.isEnabled(mContext, FeatureFlags.SILKY_HOME)
+                            && TextUtils.equals(tile.getCategory(), CategoryKey.CATEGORY_HOMEPAGE)
+                            ? R.dimen.homepage_foreground_image_inset
+                            : R.dimen.dashboard_tile_foreground_image_inset);
             ((AdaptiveIcon) iconDrawable).setBackgroundColor(mContext, tile);
         }
         preference.setIcon(iconDrawable);
